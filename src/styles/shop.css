@@ -1,0 +1,79 @@
+/*! SHOP */
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@font-face {
+  font-family: light;
+  src: url(../fonts/Futura-Light-Regular.otf);
+}
+
+#shop,
+#shop-section {
+  z-index: -5;
+  position: relative;
+}
+
+#shop-gradient {
+  display: flex;
+  position: absolute;
+  width: 100vw;
+  height: 40em;
+  background-image: linear-gradient(transparent, rgb(0, 0, 0));
+  z-index: -1;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#shop-title {
+  position: absolute;
+  text-align: center;
+  letter-spacing: 0.3em;
+  font-family: light;
+  font-weight: 100;
+  text-indent: 0.3em;
+  font-size: 3rem;
+}
+
+#shop-hero-man {
+  position: relative;
+  width: 100vw;
+  height: 40em;
+  object-fit: cover;
+  display: block;
+  z-index: -2;
+  object-position: bottom;
+  opacity: 0;
+  animation: fade-in 0.5s forwards;
+}
+
+#shop-hero-kid {
+  position: relative;
+  width: 100vw;
+  height: 40em;
+  object-fit: cover;
+  display: block;
+  z-index: -2;
+  object-position: center;
+  opacity: 0;
+  animation: fade-in 0.5s forwards;
+}
+
+#shop-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 20em);
+  justify-content: center;
+  gap: 0.3em;
+  background: rgb(0, 0, 0);
+  height: fit-content;
+  width: 100vw;
+  padding: 3.5em 1em 5em 1em;
+  opacity: 0%;
+}

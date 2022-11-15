@@ -1,0 +1,44 @@
+#about-gradient {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 100vw;
+  height: 40em;
+  background-image: linear-gradient(transparent, rgb(0, 0, 0));
+  z-index: -1;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#about-details {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 35%;
+  color: whitesmoke;
+}
+
+#about-title {
+  text-align: center;
+  letter-spacing: 0.3em;
+  font-family: light;
+  font-weight: bold;
+  text-indent: 0.3em;
+  font-size: 3rem;
+  margin-bottom: 0.2em;
+}
+
+
+#about-hero {
+  position: relative;
+  width: 100vw;
+  height: 40em;
+  object-fit: cover;
+  display: block;
+  z-index: -2;
+  object-position: bottom;
+  opacity: 0;
+  filter: brightness(50%);
+  animation: fade-in 0.5s forwards;
+}

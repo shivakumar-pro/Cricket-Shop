@@ -1,0 +1,74 @@
+*,
+p,
+h1,
+h1,
+h3 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+button:focus {
+  outline: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: futura;
+  src: url(../fonts/FuturaTS-Regular.ttf);
+}
+
+@font-face {
+  font-family: viola;
+  src: url(../fonts/VIOLA.ttf);
+}
+
+html {
+  background-color: #000000;
+  color: white;
+  font-family: futura, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+.App,
+#root,
+body {
+  position: relative;
+  z-index: -5;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
