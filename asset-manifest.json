@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Cricket-Shop/static/css/main.307545b3.css",
-    "main.js": "/Cricket-Shop/static/js/main.2fb292b1.js",
+    "main.js": "/Cricket-Shop/static/js/main.baa0edd3.js",
     "static/media/hero2.jpeg": "/Cricket-Shop/static/media/hero2.d7473308c01bf87337f2.jpeg",
     "static/media/z.mp4": "/Cricket-Shop/static/media/z.e6e00e7bcc9fffad96c9.mp4",
     "static/media/search.jpg": "/Cricket-Shop/static/media/search.76a871583b0d7d5d7307.jpg",
@@ -49,10 +49,10 @@
     "static/media/VIOLA.ttf": "/Cricket-Shop/static/media/VIOLA.fa3cc5cdd3296d3cd9ce.ttf",
     "index.html": "/Cricket-Shop/index.html",
     "main.307545b3.css.map": "/Cricket-Shop/static/css/main.307545b3.css.map",
-    "main.2fb292b1.js.map": "/Cricket-Shop/static/js/main.2fb292b1.js.map"
+    "main.baa0edd3.js.map": "/Cricket-Shop/static/js/main.baa0edd3.js.map"
   },
   "entrypoints": [
     "static/css/main.307545b3.css",
-    "static/js/main.2fb292b1.js"
+    "static/js/main.baa0edd3.js"
   ]
 }
