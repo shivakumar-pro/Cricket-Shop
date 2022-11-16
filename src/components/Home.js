@@ -11,9 +11,7 @@ const Home = () => {
       <video muted autoPlay loop id="hero-video">
         <source src={heroVideo} type="video/mp4" />
       </video>
-      <h1>Cricket Shop</h1>
-      <div className='hero-search-link'>
-      </div>
+      <h1>Add a sporty look to your style with our cricket accessories. Whether you're out on the field or at the kitchen table, they'll lend a dash of fun to your look.</h1>
     </div>
   );
 };

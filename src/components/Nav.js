@@ -79,7 +79,7 @@ const Nav = (props) => {
       <div id="nav-left">
         <div id="nav-location">
                     <img src={LanguageIcon} alt="Logo" className="nav-lang" style={{width: "10  0%",height: "50px"}}/>        </div>
-        <p className="nav-text">Bangalore</p>
+        <p className="nav-text"></p>
       </div>
       <div id="nav-center">
         {/*//+ logo */}
