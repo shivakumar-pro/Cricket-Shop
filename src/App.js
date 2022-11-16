@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import BrowserRouter from 'react-router-dom/BrowserRouter';
 import './styles/styles.css';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Home from './components/Home';
 import Nav from './components/Nav';
 import Kid from './components/Kid';
@@ -27,12 +27,18 @@ function App() {
   ]);
 
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter basename={process.env.PUBLIC_URL+"/home"}>
+    
       <Router>
+      
+      
         <div className="App">
+        
           <Nav cart={cart} setCart={setCart} />
+          
           <Switch>
             <Route exact path="/home">
+    
               <Home />
             </Route>
             <Route exact path="/kid">

@@ -26,13 +26,14 @@
   animation: fade-in 1.3s forwards;
   filter: blur(2px);
 }
-h1{
+#hero{
   justify-self: center;
   align-self: center;
   align-items: center;
   justify-items: center;
   text-align: center;
   z-index: -2;
+  color: #9e004f;
 
 
 }

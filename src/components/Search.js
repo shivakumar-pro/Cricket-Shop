@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/search.css';
-import hero from '../assets/img/search.jpg';
+import hero from '../assets/img/hero.jpg';
 
 const Search = ({ cards }) => {
   const [input, setInput] = useState('');
